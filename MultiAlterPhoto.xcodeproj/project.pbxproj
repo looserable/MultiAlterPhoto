@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521CDD411DB5C5DD00B2F53C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521CDD401DB5C5DD00B2F53C /* AppDelegate.swift */; };
+		521CDD431DB5C5DD00B2F53C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521CDD421DB5C5DD00B2F53C /* ViewController.swift */; };
+		521CDD461DB5C5DD00B2F53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521CDD441DB5C5DD00B2F53C /* Main.storyboard */; };
+		521CDD481DB5C5DD00B2F53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521CDD471DB5C5DD00B2F53C /* Assets.xcassets */; };
+		521CDD4B1DB5C5DD00B2F53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521CDD491DB5C5DD00B2F53C /* LaunchScreen.storyboard */; };
+		521CDD561DB5C5DE00B2F53C /* MultiAlterPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521CDD551DB5C5DE00B2F53C /* MultiAlterPhotoTests.swift */; };
+		521CDD611DB5C5DE00B2F53C /* MultiAlterPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521CDD601DB5C5DE00B2F53C /* MultiAlterPhotoUITests.swift */; };
+		521CDD771DB5F2F100B2F53C /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521CDD761DB5F2F100B2F53C /* Photos.framework */; };
+		521CDD7B1DB6317600B2F53C /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521CDD7A1DB6317600B2F53C /* Reveal.framework */; };
+		5270934F1DB769B3009291CD /* LXTPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270934D1DB769B3009291CD /* LXTPickerController.swift */; };
+		527093501DB769B3009291CD /* LXTSubPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270934E1DB769B3009291CD /* LXTSubPickerController.swift */; };
+		527093521DB769C0009291CD /* LXTSubPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527093511DB769C0009291CD /* LXTSubPickerCell.swift */; };
+		527093551DB77703009291CD /* LXTBottomCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527093541DB77703009291CD /* LXTBottomCustomView.swift */; };
+		527093581DB77E07009291CD /* LXTPhotoSrcManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527093571DB77E07009291CD /* LXTPhotoSrcManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		521CDD521DB5C5DE00B2F53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521CDD351DB5C5DD00B2F53C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521CDD3C1DB5C5DD00B2F53C;
+			remoteInfo = MultiAlterPhoto;
+		};
+		521CDD5D1DB5C5DE00B2F53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521CDD351DB5C5DD00B2F53C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521CDD3C1DB5C5DD00B2F53C;
+			remoteInfo = MultiAlterPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		521CDD3D1DB5C5DD00B2F53C /* MultiAlterPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiAlterPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		521CDD401DB5C5DD00B2F53C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		521CDD421DB5C5DD00B2F53C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		521CDD451DB5C5DD00B2F53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		521CDD471DB5C5DD00B2F53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521CDD4A1DB5C5DD00B2F53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		521CDD4C1DB5C5DD00B2F53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521CDD511DB5C5DE00B2F53C /* MultiAlterPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiAlterPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521CDD551DB5C5DE00B2F53C /* MultiAlterPhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiAlterPhotoTests.swift; sourceTree = "<group>"; };
+		521CDD571DB5C5DE00B2F53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521CDD5C1DB5C5DE00B2F53C /* MultiAlterPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiAlterPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521CDD601DB5C5DE00B2F53C /* MultiAlterPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiAlterPhotoUITests.swift; sourceTree = "<group>"; };
+		521CDD621DB5C5DE00B2F53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521CDD711DB5CF0700B2F53C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		521CDD761DB5F2F100B2F53C /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		521CDD7A1DB6317600B2F53C /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		5270934D1DB769B3009291CD /* LXTPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXTPickerController.swift; sourceTree = "<group>"; };
+		5270934E1DB769B3009291CD /* LXTSubPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXTSubPickerController.swift; sourceTree = "<group>"; };
+		527093511DB769C0009291CD /* LXTSubPickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXTSubPickerCell.swift; sourceTree = "<group>"; };
+		527093541DB77703009291CD /* LXTBottomCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXTBottomCustomView.swift; sourceTree = "<group>"; };
+		527093571DB77E07009291CD /* LXTPhotoSrcManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXTPhotoSrcManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521CDD3A1DB5C5DD00B2F53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521CDD771DB5F2F100B2F53C /* Photos.framework in Frameworks */,
+				521CDD7B1DB6317600B2F53C /* Reveal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521CDD4E1DB5C5DE00B2F53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521CDD591DB5C5DE00B2F53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521CDD341DB5C5DD00B2F53C = {
+			isa = PBXGroup;
+			children = (
+				527093431DB7415E009291CD /* LXTImagePicker */,
+				521CDD3F1DB5C5DD00B2F53C /* MultiAlterPhoto */,
+				521CDD541DB5C5DE00B2F53C /* MultiAlterPhotoTests */,
+				521CDD5F1DB5C5DE00B2F53C /* MultiAlterPhotoUITests */,
+				521CDD3E1DB5C5DD00B2F53C /* Products */,
+				521CDD701DB5CF0700B2F53C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		521CDD3E1DB5C5DD00B2F53C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521CDD3D1DB5C5DD00B2F53C /* MultiAlterPhoto.app */,
+				521CDD511DB5C5DE00B2F53C /* MultiAlterPhotoTests.xctest */,
+				521CDD5C1DB5C5DE00B2F53C /* MultiAlterPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521CDD3F1DB5C5DD00B2F53C /* MultiAlterPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				521CDD401DB5C5DD00B2F53C /* AppDelegate.swift */,
+				521CDD421DB5C5DD00B2F53C /* ViewController.swift */,
+				521CDD441DB5C5DD00B2F53C /* Main.storyboard */,
+				521CDD471DB5C5DD00B2F53C /* Assets.xcassets */,
+				521CDD491DB5C5DD00B2F53C /* LaunchScreen.storyboard */,
+				521CDD4C1DB5C5DD00B2F53C /* Info.plist */,
+			);
+			path = MultiAlterPhoto;
+			sourceTree = "<group>";
+		};
+		521CDD541DB5C5DE00B2F53C /* MultiAlterPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				521CDD551DB5C5DE00B2F53C /* MultiAlterPhotoTests.swift */,
+				521CDD571DB5C5DE00B2F53C /* Info.plist */,
+			);
+			path = MultiAlterPhotoTests;
+			sourceTree = "<group>";
+		};
+		521CDD5F1DB5C5DE00B2F53C /* MultiAlterPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				521CDD601DB5C5DE00B2F53C /* MultiAlterPhotoUITests.swift */,
+				521CDD621DB5C5DE00B2F53C /* Info.plist */,
+			);
+			path = MultiAlterPhotoUITests;
+			sourceTree = "<group>";
+		};
+		521CDD701DB5CF0700B2F53C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				521CDD7A1DB6317600B2F53C /* Reveal.framework */,
+				521CDD761DB5F2F100B2F53C /* Photos.framework */,
+				521CDD711DB5CF0700B2F53C /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		527093431DB7415E009291CD /* LXTImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				527093561DB77DC6009291CD /* Utils */,
+				527093531DB76A48009291CD /* CustomView */,
+				5270934B1DB7658D009291CD /* Cell */,
+				5270934C1DB7658D009291CD /* ViewController */,
+				5270934A1DB76515009291CD /* Resource */,
+			);
+			name = LXTImagePicker;
+			path = MultiAlterPhoto/LXTImagePicker;
+			sourceTree = "<group>";
+		};
+		5270934A1DB76515009291CD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5270934B1DB7658D009291CD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				527093511DB769C0009291CD /* LXTSubPickerCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5270934C1DB7658D009291CD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5270934D1DB769B3009291CD /* LXTPickerController.swift */,
+				5270934E1DB769B3009291CD /* LXTSubPickerController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		527093531DB76A48009291CD /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				527093541DB77703009291CD /* LXTBottomCustomView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		527093561DB77DC6009291CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				527093571DB77E07009291CD /* LXTPhotoSrcManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521CDD3C1DB5C5DD00B2F53C /* MultiAlterPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521CDD651DB5C5DE00B2F53C /* Build configuration list for PBXNativeTarget "MultiAlterPhoto" */;
+			buildPhases = (
+				521CDD391DB5C5DD00B2F53C /* Sources */,
+				521CDD3A1DB5C5DD00B2F53C /* Frameworks */,
+				521CDD3B1DB5C5DD00B2F53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiAlterPhoto;
+			productName = MultiAlterPhoto;
+			productReference = 521CDD3D1DB5C5DD00B2F53C /* MultiAlterPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521CDD501DB5C5DE00B2F53C /* MultiAlterPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521CDD681DB5C5DE00B2F53C /* Build configuration list for PBXNativeTarget "MultiAlterPhotoTests" */;
+			buildPhases = (
+				521CDD4D1DB5C5DE00B2F53C /* Sources */,
+				521CDD4E1DB5C5DE00B2F53C /* Frameworks */,
+				521CDD4F1DB5C5DE00B2F53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521CDD531DB5C5DE00B2F53C /* PBXTargetDependency */,
+			);
+			name = MultiAlterPhotoTests;
+			productName = MultiAlterPhotoTests;
+			productReference = 521CDD511DB5C5DE00B2F53C /* MultiAlterPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		521CDD5B1DB5C5DE00B2F53C /* MultiAlterPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521CDD6B1DB5C5DE00B2F53C /* Build configuration list for PBXNativeTarget "MultiAlterPhotoUITests" */;
+			buildPhases = (
+				521CDD581DB5C5DE00B2F53C /* Sources */,
+				521CDD591DB5C5DE00B2F53C /* Frameworks */,
+				521CDD5A1DB5C5DE00B2F53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521CDD5E1DB5C5DE00B2F53C /* PBXTargetDependency */,
+			);
+			name = MultiAlterPhotoUITests;
+			productName = MultiAlterPhotoUITests;
+			productReference = 521CDD5C1DB5C5DE00B2F53C /* MultiAlterPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521CDD351DB5C5DD00B2F53C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lixiaotao;
+				TargetAttributes = {
+					521CDD3C1DB5C5DD00B2F53C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LAL4H67334;
+						ProvisioningStyle = Automatic;
+					};
+					521CDD501DB5C5DE00B2F53C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 521CDD3C1DB5C5DD00B2F53C;
+					};
+					521CDD5B1DB5C5DE00B2F53C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 521CDD3C1DB5C5DD00B2F53C;
+					};
+				};
+			};
+			buildConfigurationList = 521CDD381DB5C5DD00B2F53C /* Build configuration list for PBXProject "MultiAlterPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 521CDD341DB5C5DD00B2F53C;
+			productRefGroup = 521CDD3E1DB5C5DD00B2F53C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521CDD3C1DB5C5DD00B2F53C /* MultiAlterPhoto */,
+				521CDD501DB5C5DE00B2F53C /* MultiAlterPhotoTests */,
+				521CDD5B1DB5C5DE00B2F53C /* MultiAlterPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521CDD3B1DB5C5DD00B2F53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521CDD4B1DB5C5DD00B2F53C /* LaunchScreen.storyboard in Resources */,
+				521CDD481DB5C5DD00B2F53C /* Assets.xcassets in Resources */,
+				521CDD461DB5C5DD00B2F53C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521CDD4F1DB5C5DE00B2F53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521CDD5A1DB5C5DE00B2F53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521CDD391DB5C5DD00B2F53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521CDD431DB5C5DD00B2F53C /* ViewController.swift in Sources */,
+				521CDD411DB5C5DD00B2F53C /* AppDelegate.swift in Sources */,
+				5270934F1DB769B3009291CD /* LXTPickerController.swift in Sources */,
+				527093501DB769B3009291CD /* LXTSubPickerController.swift in Sources */,
+				527093521DB769C0009291CD /* LXTSubPickerCell.swift in Sources */,
+				527093581DB77E07009291CD /* LXTPhotoSrcManager.swift in Sources */,
+				527093551DB77703009291CD /* LXTBottomCustomView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521CDD4D1DB5C5DE00B2F53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521CDD561DB5C5DE00B2F53C /* MultiAlterPhotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521CDD581DB5C5DE00B2F53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521CDD611DB5C5DE00B2F53C /* MultiAlterPhotoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		521CDD531DB5C5DE00B2F53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521CDD3C1DB5C5DD00B2F53C /* MultiAlterPhoto */;
+			targetProxy = 521CDD521DB5C5DE00B2F53C /* PBXContainerItemProxy */;
+		};
+		521CDD5E1DB5C5DE00B2F53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521CDD3C1DB5C5DD00B2F53C /* MultiAlterPhoto */;
+			targetProxy = 521CDD5D1DB5C5DE00B2F53C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		521CDD441DB5C5DD00B2F53C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521CDD451DB5C5DD00B2F53C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		521CDD491DB5C5DD00B2F53C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521CDD4A1DB5C5DD00B2F53C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521CDD631DB5C5DE00B2F53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521CDD641DB5C5DE00B2F53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521CDD661DB5C5DE00B2F53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LAL4H67334;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MultiAlterPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.MultiAlterPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		521CDD671DB5C5DE00B2F53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LAL4H67334;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MultiAlterPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.MultiAlterPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		521CDD691DB5C5DE00B2F53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiAlterPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.MultiAlterPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiAlterPhoto.app/MultiAlterPhoto";
+			};
+			name = Debug;
+		};
+		521CDD6A1DB5C5DE00B2F53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiAlterPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.MultiAlterPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiAlterPhoto.app/MultiAlterPhoto";
+			};
+			name = Release;
+		};
+		521CDD6C1DB5C5DE00B2F53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MultiAlterPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.MultiAlterPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MultiAlterPhoto;
+			};
+			name = Debug;
+		};
+		521CDD6D1DB5C5DE00B2F53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MultiAlterPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.MultiAlterPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MultiAlterPhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521CDD381DB5C5DD00B2F53C /* Build configuration list for PBXProject "MultiAlterPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521CDD631DB5C5DE00B2F53C /* Debug */,
+				521CDD641DB5C5DE00B2F53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521CDD651DB5C5DE00B2F53C /* Build configuration list for PBXNativeTarget "MultiAlterPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521CDD661DB5C5DE00B2F53C /* Debug */,
+				521CDD671DB5C5DE00B2F53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521CDD681DB5C5DE00B2F53C /* Build configuration list for PBXNativeTarget "MultiAlterPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521CDD691DB5C5DE00B2F53C /* Debug */,
+				521CDD6A1DB5C5DE00B2F53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521CDD6B1DB5C5DE00B2F53C /* Build configuration list for PBXNativeTarget "MultiAlterPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521CDD6C1DB5C5DE00B2F53C /* Debug */,
+				521CDD6D1DB5C5DE00B2F53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521CDD351DB5C5DD00B2F53C /* Project object */;
+}
